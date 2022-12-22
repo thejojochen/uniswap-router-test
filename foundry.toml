@@ -5,4 +5,10 @@ libs = ['lib']
 solc = "0.7.6"
 gas_reports = ["SingleSwaps"]
 
+[rpc_endpoints]
+optimistm_testnet = "${OPTIMISM_TESTNET_RPC_URL}"
+
+[etherscan]
+optimistm_testnet = { key = "${OPTIMISM_TESTNET_ETHERSCAN_API_KEY}" }
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
